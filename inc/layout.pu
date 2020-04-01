@@ -1,9 +1,7 @@
-
 /' 共通設定 '/
 hide footbox
 hide circle
 hide methods
-
 
 /' 定数 '/
 !define _PROJECT_CODE_ SampleProject
@@ -31,4 +29,3 @@ skinparam class {
     BackgroundColor #F6F6F6
     BorderColor #f3f3f3
 }
-

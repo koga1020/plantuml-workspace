@@ -1,8 +1,6 @@
 @startuml
 !include inc/layout.pu
 
-title(Hoge)
-
 entity "users" {
     pk(id):int
     name:string
