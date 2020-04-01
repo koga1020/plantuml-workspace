@@ -1,0 +1,18 @@
+@startuml
+!include inc/layout.pu
+
+title(Hoge)
+
+entity "users" {
+    pk(id):int
+    name:string
+}
+
+entity "posts" {
+    pk(id):int
+    title:string
+}
+
+has_many(users, posts)
+
+@enduml

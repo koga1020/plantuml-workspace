@@ -1,8 +1,7 @@
 @startuml
-!include inc/layout.pu
 !include inc/sequence_settings.pu
-
-title(商品詳細 シーケンス図)
+!include inc/layout.pu
+!define _TITLE_ _PROJECT_CODE_ 商品詳細 シーケンス図
 
 actor "ユーザー" as user
 

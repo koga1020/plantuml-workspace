@@ -1,5 +1,16 @@
+
+/' 共通設定 '/
+hide footbox
+hide circle
+hide methods
+
+
 /' 定数 '/
 !define _PROJECT_CODE_ SampleProject
+!define pk(x) <b>x</b>
+!define fk(x) <u>x</u>
+!define has_many(parent, children) parent ----{ children
+!define title(x) title <size:20> x
 
 /' スキン設定 '/
 skinparam sequenceActorBorderColor #666666
@@ -11,7 +22,13 @@ skinparam sequenceLifeLineBorderColor #999999
 skinparam sequenceBoxBorderColor #666666
 skinparam noteBackgroundColor #ffffcc
 skinparam noteBorderColor #999999
+skinparam sequenceArrowColor #666666
+skinparam shadowing false
 
-/' 共通設定 '/
-hide footbox
-autonumber
+skinparam class {
+    HeaderBackgroundColor #306895
+    FontColor White
+    BackgroundColor #F6F6F6
+    BorderColor #f3f3f3
+}
+
