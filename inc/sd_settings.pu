@@ -1,0 +1,17 @@
+/' 定数 '/
+!define _PROJECT_CODE_ SampleProject
+
+/' スキン設定 '/
+skinparam sequenceActorBorderColor #666666
+skinparam sequenceActorBackgroundColor #ffe4e1
+skinparam sequenceParticipantBorderColor #999999
+skinparam sequenceParticipantBackgroundColor #ffe4e1
+skinparam sequenceArrowColor #666666
+skinparam sequenceLifeLineBorderColor #999999
+skinparam sequenceBoxBorderColor #666666
+skinparam noteBackgroundColor #ffffcc
+skinparam noteBorderColor #999999
+
+/' 共通設定 '/
+hide footbox
+autonumber
