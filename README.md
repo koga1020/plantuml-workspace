@@ -2,6 +2,15 @@
 
 plantuml検証用
 
+## Tips
+
+### includeはURL指定もできる
+
+公開されたskinparamsをサクッと採用できる
+```pu
+!include https://raw.githubusercontent.com/koga1020/plantuml-workspace/master/inc/layout.pu
+```
+
 ## 参考
 
 - skin一覧

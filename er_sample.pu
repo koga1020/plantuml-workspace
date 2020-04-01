@@ -1,5 +1,5 @@
 @startuml
-!include inc/layout.pu
+!include https://raw.githubusercontent.com/koga1020/plantuml-workspace/master/inc/layout.pu
 
 entity "users" {
     pk(id):int
