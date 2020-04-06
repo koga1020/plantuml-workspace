@@ -24,8 +24,8 @@ skinparam sequenceArrowColor #666666
 skinparam shadowing false
 
 skinparam class {
-    HeaderBackgroundColor #306895
-    FontColor White
-    BackgroundColor #F6F6F6
-    BorderColor #f3f3f3
+    HeaderBackgroundColor #F9FAFC
+    FontColor black
+    BackgroundColor white
+    BorderColor black
 }
